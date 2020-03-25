@@ -13,6 +13,9 @@ return [
     'news' => 'Covid-19 Latest News',
     'news_subtitle' => 'Covid-19 Latest News',
 
+    'patient_news' => 'Covid-19 Myanmar Patient List',
+    'patient_news_subtitle' => 'Covid-19 Myanmar Patient List',
+
     'consultation' => 'Please leave a message that you would like to talk, share or giving information.',
 
     'ask_guidance_categories' => 'Choose the category that you want to know.',
