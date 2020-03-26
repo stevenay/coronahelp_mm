@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Bot;
 
 use App\Http\Controllers\Controller;
 use App\Jobs\SendConsultation;
+use App\Jobs\SendEmergencyContact;
 use App\Jobs\SendGuidance;
 use App\Jobs\SendLatestNews;
 use App\Jobs\SendMainMenu;
@@ -39,6 +40,15 @@ class GeneralController extends Controller
         $bot->types();
 
         SendConsultation::dispatch($bot);
+
+        return response("", 200);
+    }
+
+    public function replyEmergencyContact($bot)
+    {
+        $bot->types();
+
+        SendEmergencyContact::dispatch($bot);
 
         return response("", 200);
     }

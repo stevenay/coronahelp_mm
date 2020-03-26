@@ -4,6 +4,7 @@ return [
     'latest_news' => 'Latest News',
     'guidance' => 'Guidance',
     'consult' => 'Consultation',
+    'contact' => 'Emergency Contact',
 
     'guidance_1' => 'Covid-19 Faqs',
     'guidance_1_subtitle' => 'Covid-19 Faqs',
@@ -27,6 +28,18 @@ return [
     'patient_news_subtitle' => 'Covid-19 Myanmar Patient List',
 
     'consultation' => 'Please leave a message that you would like to talk, share or giving information.',
+
+    'emergency_contact_message' => '✅ Public Health Emergency Operation Center
+0673420268
+
+✅ Yangon Regional Department of Public Health
+09449001261, 09794510027
+    
+✅ Mandalay Regional Department of Public Health
+092000344, 0943099526
+
+✅ Yangon Airport Health Quarantine Unit
+09799983833',
 
     'fallback' => "Hi! This is CoronaHelp MM Chatbot.
     \r\nI can help you to browse the latest news and guidances about Covid-19 in Myanmar country.

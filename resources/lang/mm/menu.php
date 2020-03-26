@@ -4,6 +4,7 @@ return [
     'latest_news' => 'နောက်ဆုံးရသတင်းများ',
     'guidance' => 'ဆောင်ရန်၊ရှောင်ရန်များ',
     'consult' => 'တိုင်ပင်ဆွေးနွေးရန်',
+    'contact' => 'အရေးကြီးဆက်သွယ်ရန်',
 
     'guidance_1' => 'Covid-19 သိကောင်းစရာများ',
     'guidance_1_subtitle' => 'Covid-19 အကြောင်းသိကောင်းစရာများ',
@@ -27,6 +28,18 @@ return [
     'patient_news_subtitle' => 'Covid-19 မြန်မာလူနာစာရင်း',
 
     'consultation' => 'မိမိတိုင်ပင်လိုသည့်အကြောင်းအရာ၊ ဆွေးနွေးလိုသည့်အကြောင်းအရာ (သို့) အသိပေးလိုသည့်အကြောင်းအရာများ ရှိပါက စာချန်ခဲ့ပေးပါခင်ဗျာ။',
+
+    'emergency_contact_message' => '✅ ပြည်သူ့ကျန်းမာရေးအရေးပေါ်တုန့်ပြန်ရေးဌာန
+0673420268
+
+✅ရန်ကုန်တိုင်းဒေသကြီးပြည်သူ့ကျန်းမာရေးဦးစီးဌာန
+09449001261, 09794510027
+    
+✅ မန္တလေးတိုင်းဒေသကြီးပြည်သူ့ကျန်းမာရေးဦးစီးဌာန
+092000344, 0943099526
+
+✅ Yangon Airport Health Quarantine Unit
+09799983833',
 
     'fallback' => "Hi! This is CoronaHelp MM Chatbot.
     \r\nI can help you to browse the latest news and guidances about Covid-19 in Myanmar country.

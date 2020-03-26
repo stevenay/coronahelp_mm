@@ -13,7 +13,7 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Support\Facades\Log;
 use mysql_xdevapi\Exception;
 
-class SendMainMenu implements ShouldQueue
+class SendEmergencyContact implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
@@ -44,21 +44,7 @@ class SendMainMenu implements ShouldQueue
             $lan = retrieveChosenLanguage($this->bot);
             $languageUtil = new LanguageOption($lan);
 
-            $this->bot->reply(ButtonTemplate::create($languageUtil->getText("menu.welcome"))
-                ->addButton(ElementButton::create($languageUtil->getText('menu.latest_news'))
-                    ->type('postback')
-                    ->payload('latest news')
-                )
-                ->addButton(ElementButton::create($languageUtil->getText('menu.guidance'))
-                    ->type('postback')
-                    ->payload('guidance')
-                )
-                ->addButton(ElementButton::create($languageUtil->getText('menu.contact'))
-                    ->type('postback')
-                    ->payload('contact')
-                )
-            );
-
+            $this->bot->reply($languageUtil->getText("menu.emergency_contact_message"));
         } catch (\Exception $e) {
             Log::debug('Message ' . $e->getMessage());
         }

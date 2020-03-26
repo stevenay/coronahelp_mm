@@ -24,6 +24,7 @@ $botman->hears('^Hi$|^Help$|^Menu$|^back_to_menu$|^Hello$|^Lucky Draw$', General
 $botman->hears('guidance', GeneralController::class . "@replyGuidance");
 $botman->hears('latest news', GeneralController::class . "@replyLatestNews");
 $botman->hears('consult', GeneralController::class . "@replyConsultation");
+$botman->hears('contact', GeneralController::class . "@replyEmergencyContact");
 
 //FallbackRoute
 $botman->fallback(\App\Http\Controllers\Bot\FallbackController::class.'@handleFallback');
