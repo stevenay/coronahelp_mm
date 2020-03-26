@@ -7,8 +7,18 @@ return [
 
     'guidance_1' => 'Covid-19 Faqs',
     'guidance_1_subtitle' => 'Covid-19 Faqs',
+    
     'guidance_2' => 'Self-Quarantine Guidelines',
     'guidance_2_subtitle' => 'Self-Quarantine Guidelines',
+
+    'guidance_3' => 'Hotel Restaurants Guidelines',
+    'guidance_3_subtitle' => 'Hotel Restaurants Guidelines to Follow',
+
+    'guidance_4' => 'Facility Quarantine Guidelines',
+    'guidance_4_subtitle' => 'Facility Quarantine Guidelines to Follow',
+
+    'guidance_5' => 'Hospital Guidelines',
+    'guidance_5_subtitle' => 'Hospital Guidelines to Follow',
 
     'news' => 'Covid-19 Latest News',
     'news_subtitle' => 'Covid-19 Latest News',

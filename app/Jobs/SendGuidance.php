@@ -65,6 +65,30 @@ class SendGuidance implements ShouldQueue
                                 ->url('https://coronahelpmm.org/archives/93')
                                 ->enableExtensions()
                         ),
+                    Element::create($languageUtil->getText("menu.guidance_3"))
+                        ->subtitle($languageUtil->getText("menu.guidance_3_subtitle"))
+                        ->image('https://naylinaung.me/img/bot_covers/hotel_restaurant.png')
+                        ->addButton(
+                            ElementButton::create($languageUtil->getText("menu.category_choose"))
+                                ->url('https://coronahelpmm.org/archives/112')
+                                ->enableExtensions()
+                        ),
+                    Element::create($languageUtil->getText("menu.guidance_4"))
+                        ->subtitle($languageUtil->getText("menu.guidance_4_subtitle"))
+                        ->image('https://naylinaung.me/img/bot_covers/quarantine_centers.png')
+                        ->addButton(
+                            ElementButton::create($languageUtil->getText("menu.category_choose"))
+                                ->url('https://coronahelpmm.org/archives/108')
+                                ->enableExtensions()
+                        ),
+                    Element::create($languageUtil->getText("menu.guidance_5"))
+                        ->subtitle($languageUtil->getText("menu.guidance_5_subtitle"))
+                        ->image('https://naylinaung.me/img/bot_covers/hospital.png')
+                        ->addButton(
+                            ElementButton::create($languageUtil->getText("menu.category_choose"))
+                                ->url('https://coronahelpmm.org/archives/103')
+                                ->enableExtensions()
+                        ),
                 ])
         );
 
