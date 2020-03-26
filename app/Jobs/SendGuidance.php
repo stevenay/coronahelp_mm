@@ -54,7 +54,7 @@ class SendGuidance implements ShouldQueue
                         ->image('https://i.ibb.co/1sD1mCW/self-quarantine.png')
                         ->addButton(
                             ElementButton::create($languageUtil->getText("menu.category_choose"))
-                                ->url('https://covid2019.leetdev.net/faqs')
+                                ->url('https://coronahelpmm.org/faqs')
                                 ->enableExtensions()
                         ),
                     Element::create($languageUtil->getText("menu.guidance_2"))
@@ -62,7 +62,7 @@ class SendGuidance implements ShouldQueue
                         ->image('https://i.ibb.co/ZzKdG1v/faq.png')
                         ->addButton(
                             ElementButton::create($languageUtil->getText("menu.category_choose"))
-                                ->url('https://covid2019.leetdev.net/archives/93')
+                                ->url('https://coronahelpmm.org/archives/93')
                                 ->enableExtensions()
                         ),
                 ])
