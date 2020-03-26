@@ -1,6 +1,6 @@
 <?php
 return [
-    'welcome' => "😃😃 Welcome from the CoronaHelp MM. We are serving latest news, guidances for Myanmar People.",
+    'welcome' => "😃😃 Welcome from the CoronaHelp MM. We are serving latest news, guidances about Covid-19 for Myanmar People.",
     'latest_news' => 'Latest News',
     'guidance' => 'Guidance',
     'consult' => 'Consultation',
