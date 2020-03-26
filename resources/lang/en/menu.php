@@ -7,7 +7,7 @@ return [
 
     'guidance_1' => 'Covid-19 Faqs',
     'guidance_1_subtitle' => 'Covid-19 Faqs',
-    
+
     'guidance_2' => 'Self-Quarantine Guidelines',
     'guidance_2_subtitle' => 'Self-Quarantine Guidelines',
 
@@ -27,6 +27,10 @@ return [
     'patient_news_subtitle' => 'Covid-19 Myanmar Patient List',
 
     'consultation' => 'Please leave a message that you would like to talk, share or giving information.',
+
+    'fallback' => 'Hi! This is CoronaHelp MM Chatbot.
+    \r\nI can help you to browse the latest news and guidances about Covid-19 in Myanmar country.
+\r\nTo use me, please click \"Menu\" button to explore more.',
 
     'ask_guidance_categories' => 'Choose the category that you want to know.',
     'back_to_menu' => 'Do you want to go back to Main Menu?',

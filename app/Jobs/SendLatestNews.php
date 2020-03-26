@@ -47,7 +47,7 @@ class SendLatestNews implements ShouldQueue
 
         // Create a client with a base URI
         $client = new Client(['base_uri' => 'https://coronahelpmm.org/wp-json/wp/v2/']);
-        $response = $client->get('posts?categories=11&filter[orderby]=date&order=desc&per_page=1');
+        $response = $client->get('posts?categories=14&filter[orderby]=date&order=desc&per_page=1');
         // Check if a header exists.
         if ($response->hasHeader('content-type')) {
             $body = $response->getBody();
