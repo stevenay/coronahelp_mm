@@ -53,10 +53,10 @@ class SendMainMenu implements ShouldQueue
                     ->type('postback')
                     ->payload('guidance')
                 )
-                ->addButton(ElementButton::create($languageUtil->getText('menu.consult'))
-                    ->type('postback')
-                    ->payload('consult')
-                )
+                // ->addButton(ElementButton::create($languageUtil->getText('menu.consult'))
+                //     ->type('postback')
+                //     ->payload('consult')
+                // )
             );
 
         } catch (\Exception $e) {
