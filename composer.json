@@ -20,7 +20,8 @@
         "guzzlehttp/guzzle": "~6.0",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
-        "rap2hpoutre/laravel-log-viewer": "^1.4"
+        "rap2hpoutre/laravel-log-viewer": "^1.4",
+        "stevenay/myanfont": "^0.1.0"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
