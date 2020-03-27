@@ -80,7 +80,7 @@ class SendLatestNews implements ShouldQueue
                 ->addElements([
                     Element::create($languageUtil->getText("menu.patient_news"))
                         ->subtitle($languageUtil->getText("menu.patient_news_subtitle"))
-                        ->image('https://i.ibb.co/qpZ8K5V/patient-news.png')
+                        ->image('https://naylinaung.me/img/bot_covers/patient_news.png')
                         ->addButton(
                             ElementButton::create($languageUtil->getText("menu.category_choose"))
                                 ->url('https://coronahelpmm.org/patient-lists')
