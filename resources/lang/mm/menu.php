@@ -34,6 +34,9 @@ return [
     'guidance_5' => 'Hospital Guidelines',
     'guidance_5_subtitle' => 'Hospital Guidelines to Follow',
 
+    'guidance_places' => 'Guidelines for Places',
+    'guidance_places_subtitle' => 'Guidelines for Places to Follow',
+
     'news' => 'Covid-19 နောက်ဆုံးရသတင်းစဉ်',
     'news_subtitle' => 'Covid-19 နောက်ဆုံးရသတင်းစဉ်',
 

@@ -89,8 +89,8 @@ class SendGuidance implements ShouldQueue
                                 ->url('https://coronahelpmm.org/archives/93')
                                 ->enableExtensions()
                         ),
-                    Element::create($languageUtil->getText("menu.guidance_3"))
-                        ->subtitle($languageUtil->getText("menu.guidance_3_subtitle"))
+                    Element::create($languageUtil->getText("menu.guidance_places"))
+                        ->subtitle($languageUtil->getText("menu.guidance_places_subtitle"))
                         ->image('https://naylinaung.me/img/bot_covers/guidelines.png')
                         ->addButton(
                             ElementButton::create($languageUtil->getText("menu.for_hotel_restaurant"))
