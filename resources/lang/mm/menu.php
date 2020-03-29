@@ -6,6 +6,15 @@ return [
     'consult' => 'တိုင်ပင်ဆွေးနွေးရန်',
     'contact' => 'အရေးကြီးဆက်သွယ်ရန်',
 
+    'home_protection' => 'Home Protection & Disinfection',
+    'home_protection_subtitle' => 'မိမိအိမ်ကို ကိုရိုနာရန်မှ ကာကွယ်ရန် နည်းလမ်းများ',
+
+    'go_out' => 'When you have to go out in public',
+    'go_out_subtitle' => 'အပြင်ထွက်ရတော့မယ်ဆိုရင်',
+
+    'misconception' => 'Covid-19 Misconceptions',
+    'misconception_subtitle' => 'ပိုးသတ်ခြင်းနှင့်အယူအဆအလွဲများ',
+
     'guidance_1' => 'Covid-19 သိကောင်းစရာများ',
     'guidance_1_subtitle' => 'Covid-19 အကြောင်းသိကောင်းစရာများ',
 

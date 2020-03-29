@@ -64,12 +64,13 @@ class SendLatestNews implements ShouldQueue
 
         $lan = retrieveChosenLanguage($this->bot);
         $languageUtil = new LanguageOption($lan);
+        $todayDate = date("d M Y");
         $this->bot->reply(
             GenericTemplate::create()
                 ->addImageAspectRatio(GenericTemplate::RATIO_HORIZONTAL)
                 ->addElements([
                     Element::create($languageUtil->getText("menu.news"))
-                        ->subtitle($languageUtil->getText("menu.news_subtitle"))
+                        ->subtitle($languageUtil->getText("menu.news_subtitle") . $todayDate)
                         ->image('https://i.ibb.co/YhGWWgg/news.png')
                         ->addButton(
                             ElementButton::create($languageUtil->getText("menu.category_choose"))

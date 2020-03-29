@@ -57,6 +57,30 @@ class SendGuidance implements ShouldQueue
                                 ->url('https://coronahelpmm.org/faqs')
                                 ->enableExtensions()
                         ),
+                    Element::create($languageUtil->getText("menu.home_protection"))
+                        ->subtitle($languageUtil->getText("menu.home_protection_subtitle"))
+                        ->image('https://naylinaung.me/img/bot_covers/home_protection.png')
+                        ->addButton(
+                            ElementButton::create($languageUtil->getText("menu.category_choose"))
+                                ->url('https://coronahelpmm.org/archives/270')
+                                ->enableExtensions()
+                        ),
+                    Element::create($languageUtil->getText("menu.go_out"))
+                        ->subtitle($languageUtil->getText("menu.go_out_subtitle"))
+                        ->image('https://naylinaung.me/img/bot_covers/go_out.png')
+                        ->addButton(
+                            ElementButton::create($languageUtil->getText("menu.category_choose"))
+                                ->url('https://coronahelpmm.org/archives/272')
+                                ->enableExtensions()
+                        ),
+                    Element::create($languageUtil->getText("menu.misconception"))
+                        ->subtitle($languageUtil->getText("menu.misconception_subtitle"))
+                        ->image('https://naylinaung.me/img/bot_covers/misconceptions.png')
+                        ->addButton(
+                            ElementButton::create($languageUtil->getText("menu.category_choose"))
+                                ->url('https://coronahelpmm.org/archives/274')
+                                ->enableExtensions()
+                        ),
                     Element::create($languageUtil->getText("menu.guidance_2"))
                         ->subtitle($languageUtil->getText("menu.guidance_2_subtitle"))
                         ->image('https://i.ibb.co/ZzKdG1v/faq.png')
