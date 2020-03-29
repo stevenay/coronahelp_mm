@@ -15,6 +15,10 @@ return [
     'misconception' => 'Covid-19 Misconceptions',
     'misconception_subtitle' => 'ပိုးသတ်ခြင်းနှင့်အယူအဆအလွဲများ',
 
+    'for_hotel_restaurant' => 'ဟိုတယ်နှင့်စားသောက်ခန်းမ',
+    'for_quarantine_centers' => 'Quarantine Centers များ',
+    'for_hospitals' => 'ဆေးရုံများ',
+
     'guidance_1' => 'Covid-19 သိကောင်းစရာများ',
     'guidance_1_subtitle' => 'Covid-19 အကြောင်းသိကောင်းစရာများ',
 

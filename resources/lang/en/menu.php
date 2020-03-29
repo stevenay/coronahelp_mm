@@ -6,6 +6,10 @@ return [
     'consult' => 'Consultation',
     'contact' => 'Emergency Contact',
 
+    'for_hotel_restaurant' => 'For Hotel, Restaurants',
+    'for_quarantine_centers' => 'For Quarantine Centers',
+    'for_hospitals' => 'For Hospitals',
+
     'home_protection' => 'Home Protection & Disinfection',
     'home_protection_subtitle' => 'မိမိအိမ်ကို ကိုရိုနာရန်မှ ကာကွယ်ရန် နည်းလမ်းများ',
 
