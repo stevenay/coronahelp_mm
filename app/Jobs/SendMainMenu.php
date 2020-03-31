@@ -54,8 +54,8 @@ class SendMainMenu implements ShouldQueue
                     ->payload('guidance')
                 )
                 ->addButton(ElementButton::create($languageUtil->getText('menu.contact'))
-                    ->type('postback')
-                    ->payload('contact')
+                    ->url('https://coronahelpmm.org/contact-list')
+                    ->enableExtensions()
                 )
             );
 
